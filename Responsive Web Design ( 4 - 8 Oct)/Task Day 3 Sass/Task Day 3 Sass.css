@@ -1,0 +1,37 @@
+.main .main-title {
+  color: blue;
+}
+.main .main-subtitle {
+  color: Green;
+}
+.main .main-btn {
+  color: blue;
+}
+.main .main-btn:hover {
+  color: Green;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+@media all and (max-width: 500px) {
+  .finish-btn {
+    width: 100%;
+  }
+}
+@media (min-width: 501px) and (max-width: 830px) {
+  .finish-btn {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+}/*# sourceMappingURL=task.css.map */

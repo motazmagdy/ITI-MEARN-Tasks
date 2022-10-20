@@ -1,0 +1,37 @@
+/// Variables ---
+$primary_color:blue;
+$secondary_color:Green;
+
+.main {
+    .main-title {
+        color: $primary_color;
+    }
+    .main-subtitle {
+        color:$secondary_color;
+    }
+    .main-btn {
+        color: $primary_color;
+    }
+    .main-btn:hover {
+        color:$secondary_color;
+    }
+}
+$font_sizes:18px , 16px , 14px ;
+@each $fsize in $font_sizes {
+    .font-#{$fsize}{
+        font-size: $fsize;
+    }
+}
+@media all and (max-width:500px){
+    .finish-btn {
+        width:100%;
+    }
+}
+@media (min-width:501px) and (max-width:830px){
+    .finish-btn {
+        width:50%;
+        display: block;
+        margin: auto;
+    }
+}
+

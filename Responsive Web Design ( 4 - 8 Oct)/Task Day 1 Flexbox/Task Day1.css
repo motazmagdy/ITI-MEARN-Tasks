@@ -1,0 +1,25 @@
+.container {
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-around;
+}
+.container div {
+    padding:3px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2 > div {
+    width:48%;
+    border: 2px solid black;
+}
+.divtwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.divtwo div {
+    background-color: #ededed;
+}

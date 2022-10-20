@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    height:417px;
+}
+.cont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+.main {
+    background-color: green;
+    width: 60%;
+    padding-top: 15px;
+    width: 55%;
+}
+.headfot {
+    background-color: royalblue;
+    height:40px;
+    padding-top: 15px;
+}
+.bars {
+    background-color: orange;
+    width:35%;
+    padding-top: 15px;
+    width: 22%;
+}

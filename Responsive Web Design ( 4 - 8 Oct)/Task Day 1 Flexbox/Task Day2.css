@@ -1,0 +1,13 @@
+.cont {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.cont p {
+    border: 2px solid rgb(103, 69, 6);
+    display: flex;
+    width: 70px;
+    height: 40px;
+}
